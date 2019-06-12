@@ -1,0 +1,73 @@
+ //reglas simples
+ "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+  //reglas por usuarioas
+  { 
+  "rules": {
+     "empresas": {
+        ".read": "auth != null && auth.uid == 'rRU6VxOiQcQPMShQ1G7tNy9kRUo1'",
+        ".write": "auth != null && auth.uid == 'rRU6VxOiQcQPMShQ1G7tNy9kRUo1'"
+    },
+    "usuarios": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid",
+        ".write": "auth != null && auth.uid == $uid"
+      }
+    },
+      "usuariosAdmin": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == 'rRU6VxOiQcQPMShQ1G7tNy9kRUo1'",
+        ".write": "auth != null && auth.uid == 'rRU6VxOiQcQPMShQ1G7tNy9kRUo1'" 
+      }
+    }
+      
+  }
+
+}
+//reglas version 1.8
+{ 
+  "rules": {
+     "evaluacionAdmin": {
+        ".read": "auth != null",
+        ".write": "auth != null && auth.uid == 'rRU6VxOiQcQPMShQ1G7tNy9kRUo1'"
+    },
+     "empresas": {
+        ".read": "auth != null && auth.uid == 'rRU6VxOiQcQPMShQ1G7tNy9kRUo1'",
+        ".write": "auth != null && auth.uid == 'rRU6VxOiQcQPMShQ1G7tNy9kRUo1'"
+    },
+      "puesto": {
+        ".read": "auth != null && auth.uid == 'rRU6VxOiQcQPMShQ1G7tNy9kRUo1'",
+        ".write": "auth != null && auth.uid == 'rRU6VxOiQcQPMShQ1G7tNy9kRUo1'"
+    },
+        "evaluacion": {
+        ".read": "auth != null ",
+        ".write": "auth != null "
+    },
+       "resultados": {
+        ".read": "auth != null",
+        ".write": "auth != null && auth.uid == 'rRU6VxOiQcQPMShQ1G7tNy9kRUo1'"
+    },
+    "usuarios": {
+      "$uid": {
+        ".read": "auth != null || auth.uid == $uid",
+        ".write": "auth != null && auth.uid == $uid"
+      }
+    },
+    "usuariosEmpresa": {
+      "$uid": {
+        ".read": "(auth != null && auth.uid == $uid) || auth.uid == 'rRU6VxOiQcQPMShQ1G7tNy9kRUo1'",
+        ".write": "auth != null && auth.uid == 'rRU6VxOiQcQPMShQ1G7tNy9kRUo1'" 
+      }
+    },
+      "usuariosAdmin": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == 'rRU6VxOiQcQPMShQ1G7tNy9kRUo1'",
+        ".write": "auth != null && auth.uid == 'rRU6VxOiQcQPMShQ1G7tNy9kRUo1'" 
+      }
+    }
+      
+  }
+
+}

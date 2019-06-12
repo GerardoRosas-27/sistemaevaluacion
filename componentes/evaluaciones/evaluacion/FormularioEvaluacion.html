@@ -1,0 +1,79 @@
+<div id="formularioEvaluacion" data-size="max" class="col-12" data-eliminar="eliminar">
+    <div class="card sombra">
+        <div class="card-header card-header-primary">
+            <div class="row float-right">
+                <button data-clas="ocultarFormularioEvaluacion" data-ocultar="si" onclick="ocultar(this)" class="btn btn-primary"><i class="material-icons">minimize</i></button>
+                <button id="btnSize" onclick="accionMaxMin(this)" class="btn btn-primary"><i class="material-icons">crop_portrait</i></button>
+                <button onclick="EliminarNodo(this)" type="button" class="btn btn-primary"><i class="material-icons">close</i></button>
+            </div>
+
+            <h4 class="card-title">Evaluacion</h4>
+            <p class="card-category">crea un nuevo(a) Evaluacion</p>
+        </div>
+        <div class="ocultarFormularioEvaluacion card-body">
+
+            <div class="form-row">
+                <div class="form-group col-12 col-md-6">
+                    <label style="padding-right: 50px;">Empresa </label>
+                    <button id="btnCrearEmpresa" type="button" class="btn btn-raised btn-success" data-toggle="tooltip" data-placement="right" title="Agrega una Nueva Empresa"><i class="material-icons">add</i></button>
+
+                    <select class="form-control selectpicker" data-style="btn btn-link" id="selectEmpresa">
+                        <option value="0">Ninguna seleccionada</option>
+                    </select>
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <label style="padding-right: 50px;">Puesto de Trabajo </label>
+                    <button id="btnCrearPuesto" type="button" class="btn btn-raised btn-success" data-toggle="tooltip" data-placement="right" title="Agrega un Nuevo Puesto"><i class="material-icons">add</i></button>
+                    <select class="form-control selectpicker" data-style="btn btn-link" id="selectPuesto">
+                        <option value="0">Ninguno seleccionado</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label class="textNegras emparejados">Cantidad de secciones del puesto de trabajo</label>
+                    <input type="text" class="form-control" id="textEvaluacionCantPuesto" onkeypress="return validaInt(event)" placeholder="Cantidad...">
+                </div>
+
+                <div class="form-group col-12 col-md-6">
+                    <label style="padding-right: 50px;">Sección</label>
+                    <button id="btnCrearSeccion" type="button" class="btn btn-raised btn-success" data-toggle="tooltip" data-placement="right" title="Crear una Nueva Sección"><i class="material-icons">add</i></button>
+                    <select class="form-control selectpicker" data-style="btn btn-link" id="selectSeccion">
+                        <option value="0">Ninguna seleccionada</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label class="textNegras emparejados">Cantidad de preguntas de la secci&oacute;n</label>
+                    <input type="text" class="form-control" id="textEvaluacionCantSeccion" onkeypress="return validaInt(event)" placeholder="Cantidad...">
+                </div>
+
+
+
+                <div class="form-group col-12 col-md-6">
+                    <label style="padding-right: 50px;">Caso Práctico </label>
+                    <button id="btnCrearCaso" type="button" class="btn btn-raised btn-success" data-toggle="tooltip" data-placement="right" title="Crear un Nuevo Caso Práctico"><i class="material-icons">add</i></button>
+                    <select class="form-control selectpicker" data-style="btn btn-link" id="selectCasoPractico">
+                        <option value="0">Sin caso práctico</option>
+                    </select>
+                </div>
+                <div id="CasoPractico" class="ocultarCaso form-group col-md-6">
+                    <label class="textNegras emparejados">Cantidad de preguntas del caso práctico</label>
+                    <input type="text" class="form-control" id="textEvaluacionCantCaso" onkeypress="return validaInt(event)" placeholder="Cantidad...">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <label style="padding-right: 50px;">Pregunta </label>
+                    <button id="btnCrearPregunta" type="button" class="btn btn-raised btn-success" data-toggle="tooltip" data-placement="right" title="Crear una nueva pregunta"><i class="material-icons">add</i></button>
+                    <select class="clasePregunta form-control selectpicker" data-style="btn btn-link" id="selectPregunta">
+                        <option value="0">Ninguna seleccionada</option>
+                    </select>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="ocultarFormularioEvaluacion card-footer">
+            <button onclick="Cancelar()" type="button" class="btn btn-warning ">Cancelar</button>
+            <button id="btnGuardarEvaluacion" type="button" class="btn btn-primary">Guardar</button>
+        </div>
+    </div>
+</div>

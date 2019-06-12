@@ -1,0 +1,38 @@
+<div id="formulario_RemNomComp" data-size="max" class="col-12" data-eliminar="eliminar">
+    <div class="card sombra">
+        <div class="card-header card-header-primary">
+            <div class="row float-right">
+                <button data-clas="ocultarFormulario_RemNomComp" data-ocultar="si" onClick="ocultar(this)" class="btn btn-primary"><i class="material-icons">minimize</i></button>
+                <button id="btnSize" onClick="accionMaxMin(this)" class="btn btn-primary"><i class="material-icons">crop_portrait</i></button>
+                <button onClick="EliminarNodo(this)" type="button" class="btn btn-primary"><i class="material-icons">close</i></button>
+            </div>
+
+            <h4 class="card-title">_RemNomComp</h4>
+            <p class="card-category">crea un nuevo(a) _RemNomComp</p>
+        </div>
+        <div class="ocultarFormulario_RemNomComp card-body">
+           
+           <div class="form-group col-12">
+                <label>Nombre de la _RemNomComp</label>
+                <input type="text" class="borrar form-control" id="text_RemNomCompNombre">
+            </div>
+            <div class="form-group col-12">
+                <label>Descripción de la _RemNomComp</label>
+                <input type="text" class="borrar form-control" id="text_RemNomCompDescripcion">
+            </div>
+            <div class="form-group col-12">
+                <label>Teléfono</label>
+                <input type="text" class="borrar form-control" id="text_RemNomCompTelefono">
+            </div>
+            <div class="form-group col-12">
+                <label>Dirección</label>
+                <input type="text" class="borrar form-control" id="text_RemNomCompDireccion">
+            </div>
+  
+        </div>
+        <div class="ocultarFormulario_RemNomComp card-footer">
+            <button onClick="Cancelar()" type="button" class="btn btn-warning ">Cancelar</button>
+            <button id="btnGuardar_RemNomComp" type="button" class="btn btn-primary">Guardar</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,2157 @@
+{
+  "casoPractico" : {
+    "-LQb3XZ_kKEnb3YXCE96" : {
+      "cantPreguntas" : "20",
+      "descripcion" : "",
+      "id" : "1",
+      "nombre" : "prueba de caso",
+      "tiempo" : "20"
+    },
+    "-LR0BaR6956i2pgStsJj" : {
+      "descripcion" : "",
+      "id" : "2",
+      "nombre" : "caso 2",
+      "tiempo" : "20"
+    }
+  },
+  "empresas" : {
+    "-LOWaNSibd2xKi6eS1Ou" : {
+      "descripcion" : "asdasd",
+      "direccion" : "dadasda",
+      "nombre" : "empresa 1",
+      "telefono" : "213131"
+    },
+    "-LOjOAbRh4VhH4PYmdUc" : {
+      "descripcion" : "asda",
+      "direccion" : "dgfd",
+      "nombre" : "prueba",
+      "telefono" : "24"
+    },
+    "-LOjOJQXAGN9J3RVkpf2" : {
+      "descripcion" : "sdfs",
+      "direccion" : "wer",
+      "nombre" : "cancun",
+      "telefono" : "sdfs"
+    },
+    "-LOjXov7mNiI1O6OWVBn" : {
+      "descripcion" : "dfgdf",
+      "direccion" : "dgfgdfg",
+      "nombre" : "fgfdg",
+      "telefono" : "543534"
+    },
+    "-LOjhB4hUizgR1wDd0ul" : {
+      "descripcion" : "sdfsd",
+      "direccion" : "sfsdfs",
+      "nombre" : "prueba 3",
+      "telefono" : "2342342"
+    },
+    "-LOjv052Ii3GienavhW8" : {
+      "descripcion" : "asdas",
+      "direccion" : "rwerwrew",
+      "nombre" : "empresa fin",
+      "telefono" : "345345"
+    },
+    "-LR-hX8DrjdMnwltVCKx" : {
+      "descripcion" : "adssadsa",
+      "direccion" : "ddsfsdfsdfsfsd",
+      "nombre" : "empresa exportacion",
+      "telefono" : "12312312321"
+    }
+  },
+  "evaluacion" : {
+    "Gerente" : [ null, {
+      "cantidadPreguntas" : "44",
+      "descripcion" : "Toma en cuenta las siguientes recomendaciones al contestar tu prueba:   La siguiente prueba contiene 44 reactivos para contestar en un tiempo de  15 minutos, cada reactivo cuenta con 4 opciones de respuesta con un cierto grado de certeza, pero sólo una es la correcta, lee cuidadosamente cada reactivo y elige la mejor opción de acuerdo a tus conocimientos, trata de ocupar un promedio máximo de 20 segundos por reactivo para no exceder el tiempo de la prueba, cada vez que termines de elegir tu opción, presiona el botón (siguiente) para continuar con el siguiente reactivo, una vez presionado el botón (siguiente) no podrás regresar a la pregunta anterior y cada reactivo sin respuesta se toma como respuesta no favorable.",
+      "nombre" : "Evaluación de Conocimientos",
+      "preguntas" : [ null, {
+        "cantidadRes" : "2",
+        "pregunta" : "dfgdf",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "sdfsd",
+            "valor" : "sdfsd"
+          }, {
+            "nombre" : "sdfds",
+            "valor" : "sdfsdf"
+          } ]
+        },
+        "tiempo" : "39"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Es la etapa del proceso administrativo donde se llevan a cabo la división de tareas y actividades, se establece la estructura de la empresa, se delimitan las funciones de cada parte.",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Planeación.",
+            "valor" : ""
+          }, {
+            "nombre" : "Control.",
+            "valor" : ""
+          }, {
+            "nombre" : "Dirección.",
+            "valor" : ""
+          }, {
+            "nombre" : "Organización.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Es la etapa del proceso administrativo en el que se plantean los objetivos, metas y propósitos a corto, mediano y largo plazo, además de establecer las responsabilidades de cada elemento que intervine.",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Planeación.",
+            "valor" : ""
+          }, {
+            "nombre" : "Control.",
+            "valor" : ""
+          }, {
+            "nombre" : "Dirección.",
+            "valor" : ""
+          }, {
+            "nombre" : "Organización.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Es la secuencia lógica que se lleva a cabo en el proceso administrativo.",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Planeación, organización, control y dirección.",
+            "valor" : ""
+          }, {
+            "nombre" : "Planeación, dirección, organización y control.",
+            "valor" : ""
+          }, {
+            "nombre" : "Planeación, organización, dirección y control.",
+            "valor" : ""
+          }, {
+            "nombre" : "Planeación, control, dirección y organización.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Se refiere al conjunto de propiedades inherentes a un objeto que le confieren capacidad para satisfacer necesidades implícitas o explícitas. La anterior es definición de:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Procesos.",
+            "valor" : ""
+          }, {
+            "nombre" : "Satisfacción del cliente.",
+            "valor" : ""
+          }, {
+            "nombre" : "Proceso de producción.",
+            "valor" : ""
+          }, {
+            "nombre" : "Calidad.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Es el esfuerzo total para plantear, organizar, dirigir y controlar la calidad en un sistema de producción con el objetivo de dar al cliente productos con la calidad necesaria. La anterior es la definición de:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Calidad en procesos.",
+            "valor" : ""
+          }, {
+            "nombre" : "Satisfacción del cliente.",
+            "valor" : ""
+          }, {
+            "nombre" : "Aseguramiento de calidad.",
+            "valor" : ""
+          }, {
+            "nombre" : "Calidad en producción.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Los procesos y trabajos que se deben controlar para conseguir productos sin fallos. Se refiere a:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Calidad en procesos.",
+            "valor" : ""
+          }, {
+            "nombre" : "Satisfacción del cliente.",
+            "valor" : ""
+          }, {
+            "nombre" : "Aseguramiento de calidad.",
+            "valor" : ""
+          }, {
+            "nombre" : "Calidad en producción.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Es la calidad en los procesos de servicio, que logran brindar y ofrecer al cliente el cumplimiento de sus expectativas. Lo anterior es definición de:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Calidad en procesos.",
+            "valor" : ""
+          }, {
+            "nombre" : "Satisfacción del cliente.",
+            "valor" : ""
+          }, {
+            "nombre" : "Aseguramiento de calidad.",
+            "valor" : ""
+          }, {
+            "nombre" : "Calidad en producción.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Sucesión e interrelación de pasos, tareas y decisiones, con valor agregado, que se vinculan entre sí para transformar un insumo en un producto o servicio. Es el concepto de:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Procesos en una empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Objetivos de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Planes de trabajo.",
+            "valor" : ""
+          }, {
+            "nombre" : "Mecanismos de trabajo.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Es una de las características que debe reunir un proceso:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Está compuesta por pasos a seguir de forma secuencial.",
+            "valor" : ""
+          }, {
+            "nombre" : "Se forman actividades para llevar a cabo.",
+            "valor" : ""
+          }, {
+            "nombre" : "Las tareas que se realizan para llegar a cualquier punto.",
+            "valor" : ""
+          }, {
+            "nombre" : "Es la actividad establecida previamente.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "¿Cuál es la importancia de llevar a cabo los procesos de manera eficiente?",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Permite lograr los objetivos de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Permite generar confianza en los que intervienen.",
+            "valor" : ""
+          }, {
+            "nombre" : "Establece los pasos que deben llevarse a cabo de manera definida para evitar errores en la ejecución.",
+            "valor" : ""
+          }, {
+            "nombre" : "Implementan los objetivos a seguir sin perder de vista la meta.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Es la finalidad de trabajar bajo procesos establecidos en una empresa.",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Garantizar la eficiencia de las actividades y funciones de una empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Asegurar el cumplimiento de las expectativas del cliente.",
+            "valor" : ""
+          }, {
+            "nombre" : "Permitir alcanzar los objetivos de un departamento.",
+            "valor" : ""
+          }, {
+            "nombre" : "Establecer medidas de control.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Es un proceso por el cual los pertenecientes a toda una organización identifican objetivos comunes, definen las áreas de responsabilidad de cada uno en términos de resultados esperados y emplean esos objetivos como guías para la operación de la empresa.",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Administración del tiempo.",
+            "valor" : ""
+          }, {
+            "nombre" : "Administración por objetivos.",
+            "valor" : ""
+          }, {
+            "nombre" : "Proceso administrativo.",
+            "valor" : ""
+          }, {
+            "nombre" : "Administración de procesos.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "¿En qué consiste la Administración por Objetivos?",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "En establecer los planes específicos para cada departamento.",
+            "valor" : ""
+          }, {
+            "nombre" : "En establecer los procesos que se deben llevar a cabo.",
+            "valor" : ""
+          }, {
+            "nombre" : "En establecer las metas a corto, mediano y largo plazo para cada función dentro de la empresa para lograr el objetivo general.",
+            "valor" : ""
+          }, {
+            "nombre" : "Establecer las actividades a realizar para cada función de la empresa.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "¿Cuál es la finalidad de la Administración por Objetivos?",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Generar mayor logro en las labores de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Permitir que cada integrante de la empresa conozca su función.",
+            "valor" : ""
+          }, {
+            "nombre" : "Alcanzar los objetivos de un departamento.",
+            "valor" : ""
+          }, {
+            "nombre" : "Contribuir al logro de los objetivos generales de la empresa.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Ventaja que se puede obtener con una  Administración por Objetivos:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Permite lograr que la empresa funcione de manera eficiente.",
+            "valor" : ""
+          }, {
+            "nombre" : "Garantiza el logro de los objetivos generales de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Contribuye a un mejor ambiente laboral en la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Genera mayor confianza en la corporación.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "El tiempo es uno de los recursos más importantes para el Directivo, hay que tener en cuenta que para que podamos aprovechar y sacar el máximo partido de nuestro tiempo tiene que ser y estar organizados. La anterior es la definición de:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Administración del tiempo.",
+            "valor" : ""
+          }, {
+            "nombre" : "Administración por objetivos.",
+            "valor" : ""
+          }, {
+            "nombre" : "Proceso administrativo.",
+            "valor" : ""
+          }, {
+            "nombre" : "Administración de procesos.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "¿En qué consiste la Administración del Tiempo?",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "En planear de manera eficiente el tiempo dedicado a cada una de nuestras tareas, evitar distracciones y priorizar actividades más importantes.",
+            "valor" : ""
+          }, {
+            "nombre" : "Consiste en proyectar y extender el tiempo dedicado a las labores diarias.",
+            "valor" : ""
+          }, {
+            "nombre" : "Planear debidamente cada tarea de la organización.",
+            "valor" : ""
+          }, {
+            "nombre" : "Generar una actitud de servicio rápido y muy eficiente que reduzca los tiempos.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "¿Cuál es la finalidad de la Administración del Tiempo?",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Dedicar más tiempo a las labores de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Reducir costos y optimizar los recursos.",
+            "valor" : ""
+          }, {
+            "nombre" : "Optimizar el tiempo para ser más eficientes.",
+            "valor" : ""
+          }, {
+            "nombre" : "Ahorrar tiempo para dedicarle a otras actividades laborales.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Factores que impiden una correcta Administración de Tiempo:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "La carga de trabajo en cada una de los departamentos de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Los constantes cambios en la organización.",
+            "valor" : ""
+          }, {
+            "nombre" : "El corto tiempo de la jornada laboral.",
+            "valor" : ""
+          }, {
+            "nombre" : "Mala organización (planificación), exceso de compromisos, falta de delegación, etc.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Toda persona que interviene en un proceso generador de resultados (productos o servicios), que son entregados a un cliente, si éste se encuentra en la misma organización.  ¿A qué persona se refiere?",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Cliente externo.",
+            "valor" : ""
+          }, {
+            "nombre" : "Gerente de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Consumidores de productos de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Cliente interno.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "¿Cuál es la importancia del servicio interno?",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Es importante porque de él depende los ingresos de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Es importante ya que sin él no hay ventas.",
+            "valor" : ""
+          }, {
+            "nombre" : "Es parte fundamental en el proceso interno de un servicio o producto que recibe el cliente.",
+            "valor" : ""
+          }, {
+            "nombre" : "Es importante porque permite el correcto funcionamiento de las ventas.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "¿En qué proceso es donde radica la importancia del servicio interno?",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "En la cadena de servicio interno para producir servicios y productos.",
+            "valor" : ""
+          }, {
+            "nombre" : "En la atención al cliente.",
+            "valor" : ""
+          }, {
+            "nombre" : "En la evaluación de los procesos.",
+            "valor" : ""
+          }, {
+            "nombre" : "En el desarrollo de las funciones del departamento de ventas.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Factores básicos que permiten crear un servicio interno eficiente:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Confianza, lealtad y trabajo.",
+            "valor" : ""
+          }, {
+            "nombre" : "Elaborar el trabajo correctamente sin importar el de los demás.",
+            "valor" : ""
+          }, {
+            "nombre" : "Trabajo en equipo, comunicación, coordinación y calidad.",
+            "valor" : ""
+          }, {
+            "nombre" : "Comunicación, liderazgo, dirección.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "El ____________ ___________es lo más importante en una empresa, o sea que define el éxito que pueda llegar a tener una empresa, ya que si el personal tiene la motivación necesaria de parte del dueño de la empresa o institución, esto llevará a efectuar un trabajo más eficaz. ¿Qué palabras completan la anterior definición?",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Liderazgo situacional.",
+            "valor" : ""
+          }, {
+            "nombre" : "Control de los recursos.",
+            "valor" : ""
+          }, {
+            "nombre" : "Manejo del personal.",
+            "valor" : ""
+          }, {
+            "nombre" : "Trabajo en equipo.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Acciones que contribuyen a un correcto manejo del personal:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Al personal es necesario informar sobre sus objetivos, motivarlo, liderazgo y seguimiento.",
+            "valor" : ""
+          }, {
+            "nombre" : "Al personal es necesario establecer sus planes de trabajo.",
+            "valor" : ""
+          }, {
+            "nombre" : "Al personal se debe informar sobre sus beneficios y prestaciones como miembros de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Al personal hay que presionar para que realice de forma adecuada sus labores dentro de la empresa.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Beneficios de un manejo eficiente del personal:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Mejores prestaciones para los trabajadores.",
+            "valor" : ""
+          }, {
+            "nombre" : "Mayor productividad en la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Mejores relaciones laborales, productividad y satisfacción laboral.",
+            "valor" : ""
+          }, {
+            "nombre" : "Mejor manejo de los recursos y reducción de costos.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Proporcionar retroalimentación permanente, para que los empleados sepan cuando están haciendo un buen trabajo y no tener miedo a una crítica constructiva cuando haya problemas de rendimiento, esto con el objetivo de ayudar a guiar a sus empleados a obtener mejores resultados. La anterior es una tarea que corresponde a:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "La planeación de las funciones y actividades a realizar.",
+            "valor" : ""
+          }, {
+            "nombre" : "La organización de los recursos.",
+            "valor" : ""
+          }, {
+            "nombre" : "Al correcto manejo del personal.",
+            "valor" : ""
+          }, {
+            "nombre" : "El desarrollo del recurso humano.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Es la experiencia positiva que un cliente obtiene en relación al producto o servicio recibido, adquirido o consumido, cumpliendo así sus expectativas como cliente. La anterior es definición de:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Satisfacción laboral.",
+            "valor" : ""
+          }, {
+            "nombre" : "Satisfacción emocional.",
+            "valor" : ""
+          }, {
+            "nombre" : "Calidad total.",
+            "valor" : ""
+          }, {
+            "nombre" : "Satisfacción del cliente.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Cuando logramos la satisfacción del cliente se obtienen beneficios como:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Se obtienen mayores ingresos para la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Se garantiza la productividad y eficiencia laboral.",
+            "valor" : ""
+          }, {
+            "nombre" : "Se fomenta una mejor relación con el cliente y se asegura su preferencia.",
+            "valor" : ""
+          }, {
+            "nombre" : "Se garantiza el éxito del recurso humano.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Son los tres factores principales que contribuyen al logro de la satisfacción del cliente:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Producto, precio y servicio.",
+            "valor" : ""
+          }, {
+            "nombre" : "Rapidez, seguridad y servicio. ",
+            "valor" : ""
+          }, {
+            "nombre" : "Rapidez, seguridad y confianza.",
+            "valor" : ""
+          }, {
+            "nombre" : "Experiencia, satisfacción y servicio.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "¿Cuáles son los factores organizacionales que contribuyen a la satisfacción de los clientes?",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Atención al cliente, servicio y satisfacción.",
+            "valor" : ""
+          }, {
+            "nombre" : "Organización, desarrollo y compromiso.",
+            "valor" : ""
+          }, {
+            "nombre" : "Productividad, bajos costos y eficiencia.",
+            "valor" : ""
+          }, {
+            "nombre" : "Imagen corporativa, organización y filosofía de servicio.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Es aquel servicio que prestan y proporcionan las empresas de servicios o que comercializan productos, entre otras, a sus clientes para comunicarse directamente con ellos.",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Ventas al cliente.",
+            "valor" : ""
+          }, {
+            "nombre" : "Satisfacción al cliente.",
+            "valor" : ""
+          }, {
+            "nombre" : "Promoción al cliente.",
+            "valor" : ""
+          }, {
+            "nombre" : "Servicio de atención al cliente.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "¿Cuál es la diferencia entre servicio interno y servicio de atención al cliente?",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "No existe diferencia, los dos términos son semejantes.",
+            "valor" : ""
+          }, {
+            "nombre" : "Uno se refiere al entorno interno de la empresa y el otro al entorno externo que tiene contacto con el cliente.",
+            "valor" : ""
+          }, {
+            "nombre" : "Los dos se refieren al entorno que se vive con los clientes.",
+            "valor" : ""
+          }, {
+            "nombre" : "Existe la diferencia en el que uno es un servicio ofrecido por el personal directivo de la empresa y el otro es atendido por el personal de servicio al cliente.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Son funciones principales del servicio de atención al cliente:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Ofrecer información, dar servicio personalizado, atender sugerencias y quejas, comercializar productos y servicios.",
+            "valor" : ""
+          }, {
+            "nombre" : "Ofrecer servicio a los clientes internos, seguir procesos y normas de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Cumplir con las funciones y actividades establecidas en puestos de servicio dentro de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Mantener un constante servicio de atención al cliente para vender los productos y servicios de la empresa.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Actitudes que contribuyen a un servicio de atención al cliente eficiente:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Trabajo en equipo, responsabilidad y apego a las normas de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Coordinación, buena comunicación y relaciones humanas.",
+            "valor" : ""
+          }, {
+            "nombre" : "Respeto, actitud de servicio y cordialidad.",
+            "valor" : ""
+          }, {
+            "nombre" : "Relaciones interpersonales, eficiencia y productividad.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Actitudes que contribuyen a un servicio de atención al cliente eficiente:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Trabajo en equipo, responsabilidad y apego a las normas de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Coordinación, buena comunicación y relaciones humanas.",
+            "valor" : ""
+          }, {
+            "nombre" : "Respeto, actitud de servicio y cordialidad.",
+            "valor" : ""
+          }, {
+            "nombre" : "Relaciones interpersonales, eficiencia y productividad.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Es el conjunto de mecanismos, acciones y herramientas realizadas para detectar la presencia de errores. La anterior es definición de:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Mejora continua.",
+            "valor" : ""
+          }, {
+            "nombre" : "Aseguramiento de calidad en servicio.",
+            "valor" : ""
+          }, {
+            "nombre" : "Control de calidad.",
+            "valor" : ""
+          }, {
+            "nombre" : "Calidad en procesos.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Es la actitud organizacional que pretende lograr el crecimiento y desarrollo constante de todos los procesos de la empresa, con el fin de buscar la calidad y eficiencia en la organización:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Mejora continua.",
+            "valor" : ""
+          }, {
+            "nombre" : "Aseguramiento de calidad en servicio.",
+            "valor" : ""
+          }, {
+            "nombre" : "Control de calidad.",
+            "valor" : ""
+          }, {
+            "nombre" : "Calidad en procesos.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Es el objetivo máximo a lograr en una organización, impulsado inicialmente con el establecimiento de estándares de calidad en procesos, controles de seguimiento y mejora continua en todas las funciones de la empresa:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Mejora continua.",
+            "valor" : ""
+          }, {
+            "nombre" : "Aseguramiento de calidad en servicio.",
+            "valor" : ""
+          }, {
+            "nombre" : "Control de calidad.",
+            "valor" : ""
+          }, {
+            "nombre" : "Calidad total.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Es la determinación de los objetivos a largo plazo y la elección de las acciones y la asignación de los recursos necesarios para conseguirlos. La anterior es una definición que corresponde a:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Administración por objetivos.",
+            "valor" : ""
+          }, {
+            "nombre" : "Planeación estratégica.",
+            "valor" : ""
+          }, {
+            "nombre" : "Administración de proyectos.",
+            "valor" : ""
+          }, {
+            "nombre" : "Proceso administrativo.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "¿En qué consiste la planeación estratégica?",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "En establecer la estrategia competitiva para desarrollar una amplia fórmula de cómo la empresa va a competir.",
+            "valor" : ""
+          }, {
+            "nombre" : "En analizar la situación externa e interna de la empresa, estableciendo objetivos generales y formulando las estrategias a seguir para lograr los objetivos que se han planteado.",
+            "valor" : ""
+          }, {
+            "nombre" : "En establecer sus objetivos y qué políticas serán necesarias para alcanzar tales objetivos.",
+            "valor" : ""
+          }, {
+            "nombre" : "En desarrollar un proceso de desarrollo externo.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "La planificación estratégica es ______________ para las empresas porque une las fortalezas comerciales con las oportunidades de mercado y brinda una dirección para cumplir con los objetivos. Un plan estratégico es un mapa de ruta para una empresa.",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Importante.",
+            "valor" : ""
+          }, {
+            "nombre" : "El objetivo.",
+            "valor" : ""
+          }, {
+            "nombre" : "El medio.",
+            "valor" : ""
+          }, {
+            "nombre" : "La finalidad.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "4",
+        "pregunta" : "Son los elementos que debe incluir un plan estratégico:",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "Objetivos de ventas y de operación.",
+            "valor" : ""
+          }, {
+            "nombre" : "Políticas y normas que regulan el funcionamiento de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Estrategias, tácticas y actividades para lograr la competitividad de la empresa.",
+            "valor" : ""
+          }, {
+            "nombre" : "Objetivos generales y objetivos específicos por cada área de la empresa, a corto, mediano y largo plazo.",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      } ],
+      "tiempo" : "15"
+    } ],
+    "gerente 2" : [ null, {
+      "cantidadPreguntas" : "2",
+      "descripcion" : "es una prueba",
+      "nombre" : "prueba",
+      "preguntas" : [ null, {
+        "cantidadRes" : "2",
+        "pregunta" : "dfgdf",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "sdfsd",
+            "valor" : "sdfsd"
+          }, {
+            "nombre" : "sdfds",
+            "valor" : "sdfsdf"
+          } ]
+        },
+        "tiempo" : "39"
+      }, {
+        "cantidadRes" : "2",
+        "pregunta" : "final",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "se acavaron",
+            "valor" : ""
+          }, {
+            "nombre" : "muy rapido",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "2",
+        "pregunta" : "dfgdf",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "sdfsd",
+            "valor" : "sdfsd"
+          }, {
+            "nombre" : "sdfds",
+            "valor" : "sdfsdf"
+          } ]
+        },
+        "tiempo" : "39"
+      } ],
+      "tiempo" : "20"
+    }, {
+      "cantidadPreguntas" : "2",
+      "descripcion" : "es una prueba",
+      "nombre" : "prueba 2",
+      "preguntas" : [ null, {
+        "cantidadRes" : "2",
+        "pregunta" : "prueba 2",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "penultima",
+            "valor" : ""
+          }, {
+            "nombre" : "muy rapido",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      }, {
+        "cantidadRes" : "2",
+        "pregunta" : "prueba 2 final",
+        "respuestas" : {
+          "DataRes" : [ null, {
+            "nombre" : "final",
+            "valor" : ""
+          }, {
+            "nombre" : "prueba3",
+            "valor" : ""
+          } ]
+        },
+        "tiempo" : "0"
+      } ],
+      "tiempo" : "20"
+    } ]
+  },
+  "evaluacionAdmin" : {
+    "-LOWaNSibd2xKi6eS1Ou" : {
+      "-LOjM8nxPNDp9ZF2WGTk" : {
+        "1" : {
+          "CantPreguntasSeccion" : {
+            "cant" : "4"
+          },
+          "EstadoCaso" : {
+            "caso" : "NO"
+          },
+          "caso" : {
+            "preguntas" : [ null, {
+              "id" : "1",
+              "pregunta" : "pregunta 1",
+              "respuestas" : [ null, {
+                "nombre" : "respuesta 1",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 2",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 3",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 4",
+                "valor" : "0"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "2",
+              "pregunta" : "pregunta 2",
+              "respuestas" : [ null, {
+                "nombre" : "dsfds",
+                "valor" : "3"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "4"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "3",
+              "pregunta" : "pregunta 3",
+              "respuestas" : [ null, {
+                "nombre" : "dfdsf",
+                "valor" : "4"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "5"
+              }, {
+                "nombre" : "sdf",
+                "valor" : "5"
+              }, {
+                "nombre" : "dfsd",
+                "valor" : "6"
+              }, {
+                "nombre" : "aadasd",
+                "valor" : "3"
+              } ],
+              "tiempo" : "25"
+            }, {
+              "id" : "4",
+              "pregunta" : "pregunta 4",
+              "respuestas" : [ null, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asdas",
+                "valor" : ""
+              } ],
+              "tiempo" : "10"
+            }, {
+              "id" : "5",
+              "pregunta" : "pregunta 5",
+              "respuestas" : [ null, {
+                "nombre" : "sdfsd",
+                "valor" : ""
+              }, {
+                "nombre" : "sdfsdf",
+                "valor" : ""
+              } ],
+              "tiempo" : "49"
+            }, {
+              "id" : "6",
+              "pregunta" : "pregunta66",
+              "respuestas" : [ null, {
+                "nombre" : "sdfds",
+                "valor" : "sdfs"
+              }, {
+                "nombre" : "dsfsd",
+                "valor" : "gs"
+              }, {
+                "nombre" : "sfsdf",
+                "valor" : "ss"
+              } ],
+              "tiempo" : "42"
+            }, {
+              "id" : "7",
+              "pregunta" : "pregunta 7",
+              "respuestas" : [ null, {
+                "nombre" : "asd",
+                "valor" : "4"
+              }, {
+                "nombre" : "asd",
+                "valor" : "4"
+              }, {
+                "nombre" : "asd",
+                "valor" : "5"
+              } ],
+              "tiempo" : "23"
+            }, {
+              "id" : "8",
+              "pregunta" : "pregunta 8",
+              "respuestas" : [ null, {
+                "nombre" : "adas",
+                "valor" : "g5"
+              }, {
+                "nombre" : "dfgfd",
+                "valor" : "5"
+              }, {
+                "nombre" : "dfgdf",
+                "valor" : "5"
+              }, {
+                "nombre" : "rrtyrtytr",
+                "valor" : "5"
+              } ],
+              "tiempo" : "23"
+            }, {
+              "id" : "9",
+              "pregunta" : "fsdfsdfsdfsdfsfsdfs",
+              "respuestas" : [ null, {
+                "nombre" : "dfgfd",
+                "valor" : "9"
+              }, {
+                "nombre" : "dfgdf",
+                "valor" : "9"
+              }, {
+                "nombre" : "dfgdfg",
+                "valor" : "8"
+              } ],
+              "tiempo" : "30"
+            } ]
+          },
+          "datos" : {
+            "cantPreg" : "8",
+            "id" : "1",
+            "instrucciones" : [ null, "el tiempoi de las preguntas", "al terminar el tiempo estipulado en esta seccion", "al revasar el tiempo maximo" ],
+            "nombre" : "seccion 1 de prueba",
+            "tiempo" : "20",
+            "titulo" : "evaluacion de conocimientos",
+            "tituloinstruccion" : "instrucciones"
+          }
+        },
+        "2" : {
+          "CantPreguntasSeccion" : {
+            "cant" : "4"
+          },
+          "EstadoCaso" : {
+            "caso" : "NO"
+          },
+          "caso" : {
+            "preguntas" : [ null, {
+              "id" : "1",
+              "pregunta" : "pregunta 1",
+              "respuestas" : [ null, {
+                "nombre" : "respuesta 1",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 2",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 3",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 4",
+                "valor" : "0"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "2",
+              "pregunta" : "pregunta 2",
+              "respuestas" : [ null, {
+                "nombre" : "dsfds",
+                "valor" : "3"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "4"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "3",
+              "pregunta" : "pregunta 3",
+              "respuestas" : [ null, {
+                "nombre" : "dfdsf",
+                "valor" : "4"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "5"
+              }, {
+                "nombre" : "sdf",
+                "valor" : "5"
+              }, {
+                "nombre" : "dfsd",
+                "valor" : "6"
+              }, {
+                "nombre" : "aadasd",
+                "valor" : "3"
+              } ],
+              "tiempo" : "25"
+            }, {
+              "id" : "4",
+              "pregunta" : "pregunta 4",
+              "respuestas" : [ null, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asdas",
+                "valor" : ""
+              } ],
+              "tiempo" : "10"
+            } ]
+          },
+          "datos" : {
+            "cantPreg" : "4",
+            "id" : "2",
+            "instrucciones" : [ null, "asdasd", "adasdas" ],
+            "nombre" : "seccion dos",
+            "tiempo" : "30",
+            "titulo" : "adsaas",
+            "tituloinstruccion" : "dfgdfg"
+          }
+        },
+        "3" : {
+          "CantPreguntasSeccion" : {
+            "cant" : "4"
+          },
+          "EstadoCaso" : {
+            "caso" : "NO"
+          },
+          "caso" : {
+            "preguntas" : [ null, {
+              "id" : "1",
+              "pregunta" : "pregunta 1",
+              "respuestas" : [ null, {
+                "nombre" : "respuesta 1",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 2",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 3",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 4",
+                "valor" : "0"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "2",
+              "pregunta" : "pregunta 2",
+              "respuestas" : [ null, {
+                "nombre" : "dsfds",
+                "valor" : "3"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "4"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "3",
+              "pregunta" : "pregunta 3",
+              "respuestas" : [ null, {
+                "nombre" : "dfdsf",
+                "valor" : "4"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "5"
+              }, {
+                "nombre" : "sdf",
+                "valor" : "5"
+              }, {
+                "nombre" : "dfsd",
+                "valor" : "6"
+              }, {
+                "nombre" : "aadasd",
+                "valor" : "3"
+              } ],
+              "tiempo" : "25"
+            }, {
+              "id" : "4",
+              "pregunta" : "pregunta 4",
+              "respuestas" : [ null, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asdas",
+                "valor" : ""
+              } ],
+              "tiempo" : "10"
+            } ]
+          },
+          "datos" : {
+            "id" : "3",
+            "instrucciones" : [ null, "dfgdfgfdg", "dfgdfgdg", "dfgdfgfdgfd" ],
+            "nombre" : "seccion 3",
+            "tiempo" : "40",
+            "titulo" : "secion prueba",
+            "tituloinstruccion" : "titulo"
+          }
+        },
+        "CantSecciones" : {
+          "cant" : "3"
+        },
+        "NombrePuesto" : {
+          "nombre" : "gerente"
+        }
+      },
+      "NombreEmpresa" : {
+        "nombre" : "empresa 1"
+      }
+    },
+    "-LOjOAbRh4VhH4PYmdUc" : {
+      "-LOjM8nxPNDp9ZF2WGTk" : {
+        "1" : {
+          "CantPreguntasSeccion" : {
+            "cant" : "4"
+          },
+          "EstadoCaso" : {
+            "caso" : "NO"
+          },
+          "caso" : {
+            "preguntas" : [ null, {
+              "id" : "1",
+              "pregunta" : "pregunta 1",
+              "respuestas" : [ null, {
+                "nombre" : "respuesta 1",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 2",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 3",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 4",
+                "valor" : "0"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "2",
+              "pregunta" : "pregunta 2",
+              "respuestas" : [ null, {
+                "nombre" : "dsfds",
+                "valor" : "3"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "4"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "3",
+              "pregunta" : "pregunta 3",
+              "respuestas" : [ null, {
+                "nombre" : "dfdsf",
+                "valor" : "4"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "5"
+              }, {
+                "nombre" : "sdf",
+                "valor" : "5"
+              }, {
+                "nombre" : "dfsd",
+                "valor" : "6"
+              }, {
+                "nombre" : "aadasd",
+                "valor" : "3"
+              } ],
+              "tiempo" : "25"
+            }, {
+              "id" : "4",
+              "pregunta" : "pregunta 4",
+              "respuestas" : [ null, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asdas",
+                "valor" : ""
+              } ],
+              "tiempo" : "10"
+            } ]
+          },
+          "datos" : {
+            "cantPreg" : "8",
+            "id" : "1",
+            "instrucciones" : [ null, "el tiempoi de las preguntas", "al terminar el tiempo estipulado en esta seccion", "al revasar el tiempo maximo" ],
+            "nombre" : "seccion 1 de prueba",
+            "tiempo" : "20",
+            "titulo" : "evaluacion de conocimientos",
+            "tituloinstruccion" : "instrucciones"
+          }
+        },
+        "2" : {
+          "CantPreguntasSeccion" : {
+            "cant" : "4"
+          },
+          "EstadoCaso" : {
+            "caso" : "NO"
+          },
+          "caso" : {
+            "preguntas" : [ null, {
+              "id" : "1",
+              "pregunta" : "pregunta 1",
+              "respuestas" : [ null, {
+                "nombre" : "respuesta 1",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 2",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 3",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 4",
+                "valor" : "0"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "2",
+              "pregunta" : "pregunta 2",
+              "respuestas" : [ null, {
+                "nombre" : "dsfds",
+                "valor" : "3"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "4"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "3",
+              "pregunta" : "pregunta 3",
+              "respuestas" : [ null, {
+                "nombre" : "dfdsf",
+                "valor" : "4"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "5"
+              }, {
+                "nombre" : "sdf",
+                "valor" : "5"
+              }, {
+                "nombre" : "dfsd",
+                "valor" : "6"
+              }, {
+                "nombre" : "aadasd",
+                "valor" : "3"
+              } ],
+              "tiempo" : "25"
+            }, {
+              "id" : "4",
+              "pregunta" : "pregunta 4",
+              "respuestas" : [ null, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asdas",
+                "valor" : ""
+              } ],
+              "tiempo" : "10"
+            } ]
+          },
+          "datos" : {
+            "cantPreg" : "4",
+            "id" : "2",
+            "instrucciones" : [ null, "asdasd", "adasdas" ],
+            "nombre" : "seccion dos",
+            "tiempo" : "30",
+            "titulo" : "adsaas",
+            "tituloinstruccion" : "dfgdfg"
+          }
+        },
+        "CantSecciones" : {
+          "cant" : "3"
+        },
+        "NombrePuesto" : {
+          "nombre" : "gerente"
+        }
+      },
+      "-LOjXeUG4gR30Ccc-1Ce" : {
+        "2" : {
+          "CantPreguntasSeccion" : {
+            "cant" : "4"
+          },
+          "EstadoCaso" : {
+            "caso" : "NO"
+          },
+          "caso" : {
+            "preguntas" : [ null, {
+              "id" : "1",
+              "pregunta" : "pregunta 1",
+              "respuestas" : [ null, {
+                "nombre" : "respuesta 1",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 2",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 3",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 4",
+                "valor" : "0"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "2",
+              "pregunta" : "pregunta 2",
+              "respuestas" : [ null, {
+                "nombre" : "dsfds",
+                "valor" : "3"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "4"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "3",
+              "pregunta" : "pregunta 3",
+              "respuestas" : [ null, {
+                "nombre" : "dfdsf",
+                "valor" : "4"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "5"
+              }, {
+                "nombre" : "sdf",
+                "valor" : "5"
+              }, {
+                "nombre" : "dfsd",
+                "valor" : "6"
+              }, {
+                "nombre" : "aadasd",
+                "valor" : "3"
+              } ],
+              "tiempo" : "25"
+            }, {
+              "id" : "4",
+              "pregunta" : "pregunta 4",
+              "respuestas" : [ null, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asdas",
+                "valor" : ""
+              } ],
+              "tiempo" : "10"
+            }, {
+              "id" : "5",
+              "pregunta" : "pregunta 5",
+              "respuestas" : [ null, {
+                "nombre" : "sdfsd",
+                "valor" : ""
+              }, {
+                "nombre" : "sdfsdf",
+                "valor" : ""
+              } ],
+              "tiempo" : "49"
+            } ]
+          },
+          "datos" : {
+            "cantPreg" : "4",
+            "id" : "2",
+            "instrucciones" : [ null, "asdasd", "adasdas" ],
+            "nombre" : "seccion dos",
+            "tiempo" : "30",
+            "titulo" : "adsaas",
+            "tituloinstruccion" : "dfgdfg"
+          }
+        },
+        "3" : {
+          "CantPreguntasSeccion" : {
+            "cant" : "4"
+          },
+          "EstadoCaso" : {
+            "caso" : "NO"
+          },
+          "caso" : {
+            "preguntas" : [ null, {
+              "id" : "1",
+              "pregunta" : "pregunta 1",
+              "respuestas" : [ null, {
+                "nombre" : "respuesta 1",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 2",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 3",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 4",
+                "valor" : "0"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "2",
+              "pregunta" : "pregunta 2",
+              "respuestas" : [ null, {
+                "nombre" : "dsfds",
+                "valor" : "3"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "4"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "3",
+              "pregunta" : "pregunta 3",
+              "respuestas" : [ null, {
+                "nombre" : "dfdsf",
+                "valor" : "4"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "5"
+              }, {
+                "nombre" : "sdf",
+                "valor" : "5"
+              }, {
+                "nombre" : "dfsd",
+                "valor" : "6"
+              }, {
+                "nombre" : "aadasd",
+                "valor" : "3"
+              } ],
+              "tiempo" : "25"
+            }, {
+              "id" : "4",
+              "pregunta" : "pregunta 4",
+              "respuestas" : [ null, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asdas",
+                "valor" : ""
+              } ],
+              "tiempo" : "10"
+            } ]
+          },
+          "datos" : {
+            "id" : "3",
+            "instrucciones" : [ null, "dfgdfgfdg", "dfgdfgdg", "dfgdfgfdgfd" ],
+            "nombre" : "seccion 3",
+            "tiempo" : "40",
+            "titulo" : "secion prueba",
+            "tituloinstruccion" : "titulo"
+          }
+        },
+        "CantSecciones" : {
+          "cant" : "3"
+        },
+        "NombrePuesto" : {
+          "nombre" : "consultor"
+        }
+      },
+      "NombreEmpresa" : {
+        "nombre" : "prueba"
+      }
+    },
+    "-LOjOJQXAGN9J3RVkpf2" : {
+      "-LOjM8nxPNDp9ZF2WGTk" : {
+        "1" : {
+          "CantPreguntasSeccion" : {
+            "cant" : "8"
+          },
+          "EstadoCaso" : {
+            "caso" : "NO"
+          },
+          "caso" : {
+            "preguntas" : [ null, {
+              "id" : "1",
+              "pregunta" : "pregunta 1",
+              "respuestas" : [ null, {
+                "nombre" : "respuesta 1",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 2",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 3",
+                "valor" : "0"
+              }, {
+                "nombre" : "respuesta 4",
+                "valor" : "0"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "2",
+              "pregunta" : "pregunta 2",
+              "respuestas" : [ null, {
+                "nombre" : "dsfds",
+                "valor" : "3"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "4"
+              } ],
+              "tiempo" : "20"
+            }, {
+              "id" : "3",
+              "pregunta" : "pregunta 3",
+              "respuestas" : [ null, {
+                "nombre" : "dfdsf",
+                "valor" : "4"
+              }, {
+                "nombre" : "sdfsd",
+                "valor" : "5"
+              }, {
+                "nombre" : "sdf",
+                "valor" : "5"
+              }, {
+                "nombre" : "dfsd",
+                "valor" : "6"
+              }, {
+                "nombre" : "aadasd",
+                "valor" : "3"
+              } ],
+              "tiempo" : "25"
+            }, {
+              "id" : "4",
+              "pregunta" : "pregunta 4",
+              "respuestas" : [ null, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asd",
+                "valor" : ""
+              }, {
+                "nombre" : "asdas",
+                "valor" : ""
+              } ],
+              "tiempo" : "10"
+            }, {
+              "id" : "5",
+              "pregunta" : "pregunta 5",
+              "respuestas" : [ null, {
+                "nombre" : "sdfsd",
+                "valor" : ""
+              }, {
+                "nombre" : "sdfsdf",
+                "valor" : ""
+              } ],
+              "tiempo" : "49"
+            }, {
+              "id" : "6",
+              "pregunta" : "pregunta66",
+              "respuestas" : [ null, {
+                "nombre" : "sdfds",
+                "valor" : "sdfs"
+              }, {
+                "nombre" : "dsfsd",
+                "valor" : "gs"
+              }, {
+                "nombre" : "sfsdf",
+                "valor" : "ss"
+              } ],
+              "tiempo" : "42"
+            }, {
+              "id" : "7",
+              "pregunta" : "pregunta 7",
+              "respuestas" : [ null, {
+                "nombre" : "asd",
+                "valor" : "4"
+              }, {
+                "nombre" : "asd",
+                "valor" : "4"
+              }, {
+                "nombre" : "asd",
+                "valor" : "5"
+              } ],
+              "tiempo" : "23"
+            }, {
+              "id" : "8",
+              "pregunta" : "pregunta 8",
+              "respuestas" : [ null, {
+                "nombre" : "adas",
+                "valor" : "g5"
+              }, {
+                "nombre" : "dfgfd",
+                "valor" : "5"
+              }, {
+                "nombre" : "dfgdf",
+                "valor" : "5"
+              }, {
+                "nombre" : "rrtyrtytr",
+                "valor" : "5"
+              } ],
+              "tiempo" : "23"
+            } ]
+          },
+          "datos" : {
+            "cantPreg" : "8",
+            "id" : "1",
+            "instrucciones" : [ null, "el tiempoi de las preguntas", "al terminar el tiempo estipulado en esta seccion", "al revasar el tiempo maximo" ],
+            "nombre" : "seccion 1 de prueba",
+            "tiempo" : "20",
+            "titulo" : "evaluacion de conocimientos",
+            "tituloinstruccion" : "instrucciones"
+          }
+        },
+        "CantSecciones" : {
+          "cant" : "3"
+        },
+        "NombrePuesto" : {
+          "nombre" : "gerente"
+        }
+      },
+      "NombreEmpresa" : {
+        "nombre" : "cancun"
+      }
+    }
+  },
+  "preguntas" : {
+    "-LQsFxMMUJ44qfA1RPIL" : {
+      "id" : "1",
+      "pregunta" : "pregunta 1",
+      "respuestas" : [ null, {
+        "nombre" : "respuesta 1",
+        "valor" : "0"
+      }, {
+        "nombre" : "respuesta 2",
+        "valor" : "0"
+      }, {
+        "nombre" : "respuesta 3",
+        "valor" : "0"
+      }, {
+        "nombre" : "respuesta 4",
+        "valor" : "0"
+      } ],
+      "tiempo" : "20"
+    },
+    "-LQsG5zBSdZkh6WWwWI5" : {
+      "id" : "2",
+      "pregunta" : "pregunta 2",
+      "respuestas" : [ null, {
+        "nombre" : "dsfds",
+        "valor" : "3"
+      }, {
+        "nombre" : "sdfsd",
+        "valor" : "4"
+      } ],
+      "tiempo" : "20"
+    },
+    "-LQsGEnxVmfJiQtZNOqs" : {
+      "id" : "3",
+      "pregunta" : "pregunta 3",
+      "respuestas" : [ null, {
+        "nombre" : "dfdsf",
+        "valor" : "4"
+      }, {
+        "nombre" : "sdfsd",
+        "valor" : "5"
+      }, {
+        "nombre" : "sdf",
+        "valor" : "5"
+      }, {
+        "nombre" : "dfsd",
+        "valor" : "6"
+      }, {
+        "nombre" : "aadasd",
+        "valor" : "3"
+      } ],
+      "tiempo" : "25"
+    },
+    "-LQsGVfZ_4st2Ad0WRYP" : {
+      "id" : "4",
+      "pregunta" : "pregunta 4",
+      "respuestas" : [ null, {
+        "nombre" : "asd",
+        "valor" : ""
+      }, {
+        "nombre" : "asd",
+        "valor" : ""
+      }, {
+        "nombre" : "asd",
+        "valor" : ""
+      }, {
+        "nombre" : "asdas",
+        "valor" : ""
+      } ],
+      "tiempo" : "10"
+    },
+    "-LQsGZylZ4Bl34BhshSg" : {
+      "id" : "5",
+      "pregunta" : "pregunta 5",
+      "respuestas" : [ null, {
+        "nombre" : "sdfsd",
+        "valor" : ""
+      }, {
+        "nombre" : "sdfsdf",
+        "valor" : ""
+      } ],
+      "tiempo" : "49"
+    },
+    "-LQsGfO8VFWNXYHoVJxx" : {
+      "id" : "6",
+      "pregunta" : "pregunta66",
+      "respuestas" : [ null, {
+        "nombre" : "sdfds",
+        "valor" : "sdfs"
+      }, {
+        "nombre" : "dsfsd",
+        "valor" : "gs"
+      }, {
+        "nombre" : "sfsdf",
+        "valor" : "ss"
+      } ],
+      "tiempo" : "42"
+    },
+    "-LQsGlMdqSmSFu3hsM-N" : {
+      "id" : "7",
+      "pregunta" : "pregunta 7",
+      "respuestas" : [ null, {
+        "nombre" : "asd",
+        "valor" : "4"
+      }, {
+        "nombre" : "asd",
+        "valor" : "4"
+      }, {
+        "nombre" : "asd",
+        "valor" : "5"
+      } ],
+      "tiempo" : "23"
+    },
+    "-LQsGsB3zndQUQV5fnZL" : {
+      "id" : "8",
+      "pregunta" : "pregunta 8",
+      "respuestas" : [ null, {
+        "nombre" : "adas",
+        "valor" : "g5"
+      }, {
+        "nombre" : "dfgfd",
+        "valor" : "5"
+      }, {
+        "nombre" : "dfgdf",
+        "valor" : "5"
+      }, {
+        "nombre" : "rrtyrtytr",
+        "valor" : "5"
+      } ],
+      "tiempo" : "23"
+    },
+    "-LR-Br_X5N2xtng_j7Ya" : {
+      "id" : "9",
+      "pregunta" : "fsdfsdfsdfsdfsfsdfs",
+      "respuestas" : [ null, {
+        "nombre" : "dfgfd",
+        "valor" : "9"
+      }, {
+        "nombre" : "dfgdf",
+        "valor" : "9"
+      }, {
+        "nombre" : "dfgdfg",
+        "valor" : "8"
+      } ],
+      "tiempo" : "30"
+    }
+  },
+  "puestos" : {
+    "-LOjM8nxPNDp9ZF2WGTk" : {
+      "descripcion" : "puesto de supervisosr y gernte ",
+      "nombre" : "gerente",
+      "vacantes" : "4"
+    },
+    "-LOjXeUG4gR30Ccc-1Ce" : {
+      "descripcion" : "acesorar a las empresas para obtener un rendimiento optimo",
+      "nombre" : "consultor",
+      "vacantes" : "2"
+    },
+    "-LOjuvEuRJwtcFwSq2-w" : {
+      "descripcion" : "sdfsdf",
+      "nombre" : "prueba fin",
+      "vacantes" : "3"
+    },
+    "-LOjvBw9NdM609LMo7W1" : {
+      "descripcion" : "sdfsdfsd",
+      "nombre" : "sdfsdf",
+      "vacantes" : "6"
+    },
+    "-LOppTS2SrlJ3yS0s98I" : {
+      "descripcion" : "asdasdsa",
+      "nombre" : "puesto importado",
+      "vacantes" : "8"
+    },
+    "-LQaKMir78QgK33xJwEZ" : {
+      "descripcion" : "gggdfgdfg",
+      "nombre" : "grente limite",
+      "vacantes" : "20"
+    }
+  },
+  "seccion" : {
+    "-LQzTdQRUbSutzEEaFKE" : {
+      "cantPreg" : "8",
+      "id" : "1",
+      "instrucciones" : [ null, "el tiempoi de las preguntas", "al terminar el tiempo estipulado en esta seccion", "al revasar el tiempo maximo" ],
+      "nombre" : "seccion 1 de prueba",
+      "tiempo" : "20",
+      "titulo" : "evaluacion de conocimientos",
+      "tituloinstruccion" : "instrucciones"
+    },
+    "-LQzUYeWwvkKeZZzr21w" : {
+      "cantPreg" : "4",
+      "id" : "2",
+      "instrucciones" : [ null, "asdasd", "adasdas" ],
+      "nombre" : "seccion dos",
+      "tiempo" : "30",
+      "titulo" : "adsaas",
+      "tituloinstruccion" : "dfgdfg"
+    },
+    "-LR-aMfpaM_usf1_aa4i" : {
+      "id" : "3",
+      "instrucciones" : [ null, "dfgdfgfdg", "dfgdfgdg", "dfgdfgfdgfd" ],
+      "nombre" : "seccion 3",
+      "tiempo" : "40",
+      "titulo" : "secion prueba",
+      "tituloinstruccion" : "titulo"
+    }
+  },
+  "usuarios" : {
+    "NW4PJ1DNx5UgZoPlCD76mrxvUe43" : {
+      "anosUltimoPuesto" : "",
+      "celular" : "",
+      "ciudad" : "",
+      "correo" : "brsuter2@hotmail.com",
+      "cursos" : "",
+      "diplomados" : "",
+      "domicilio" : "",
+      "edad" : "",
+      "especialidad" : "",
+      "estado" : "inactivo",
+      "experiencia" : "",
+      "foto" : "./assets/img/Plantilla-desempeno.png",
+      "gradoEstudios" : "",
+      "ingles" : "",
+      "nombre" : "",
+      "primerApellido" : "",
+      "segundoApellido" : "",
+      "sexo" : "",
+      "uid" : "NW4PJ1DNx5UgZoPlCD76mrxvUe43",
+      "ultimaEmpresa" : "",
+      "ultimoPuesto" : ""
+    },
+    "PoazEmMlE8SIYm6dcy5NY0BktHF3" : {
+      "anosUltimoPuesto" : "",
+      "celular" : "",
+      "ciudad" : "",
+      "correo" : "bruster1@hotmail.com",
+      "cursos" : "",
+      "diplomados" : "",
+      "domicilio" : "",
+      "edad" : "",
+      "especialidad" : "",
+      "estado" : "activo",
+      "experiencia" : "",
+      "foto" : "./assets/img/Plantilla-desempeno.png",
+      "gradoEstudios" : "",
+      "ingles" : "",
+      "nombre" : "rosas",
+      "primerApellido" : "",
+      "segundoApellido" : "",
+      "sexo" : "",
+      "uid" : "PoazEmMlE8SIYm6dcy5NY0BktHF3",
+      "ultimaEmpresa" : "",
+      "ultimoPuesto" : ""
+    },
+    "U6qfBnSp1DWA4aZnwcgyJYx7jdT2" : {
+      "correo" : "bruster@hotmail.com",
+      "estado" : "activo",
+      "foto" : "./assets/img/Plantilla-desempeno.png",
+      "nombre" : "",
+      "uid" : "U6qfBnSp1DWA4aZnwcgyJYx7jdT2"
+    },
+    "bfJ0jEmqfPSHXSLSghI8o3ccpam1" : {
+      "anosUltimoPuesto" : "",
+      "celular" : "777777",
+      "ciudad" : "chilapa",
+      "correo" : "bruster123@hotmail.com",
+      "cursos" : "",
+      "diplomados" : "",
+      "domicilio" : "nuevo amanecer",
+      "edad" : "26",
+      "especialidad" : "",
+      "estado" : "activo",
+      "experiencia" : "",
+      "foto" : "./assets/img/Plantilla-desempeno.png",
+      "gradoEstudios" : "",
+      "ingles" : "",
+      "nombre" : "Gerardo",
+      "primerApellido" : "Rosas",
+      "segundoApellido" : "Rodriguez",
+      "sexo" : "hombre",
+      "uid" : "bfJ0jEmqfPSHXSLSghI8o3ccpam1",
+      "ultimaEmpresa" : "",
+      "ultimoPuesto" : ""
+    },
+    "iS9EEWjMKNVz8oY9ZmhstvlYoNx1" : {
+      "anosUltimoPuesto" : "",
+      "celular" : "567567575756",
+      "ciudad" : "",
+      "correo" : "bruster2@hotmail.com",
+      "cursos" : "",
+      "diplomados" : "",
+      "domicilio" : "",
+      "edad" : "26",
+      "especialidad" : "",
+      "estado" : "activo",
+      "experiencia" : "",
+      "foto" : "./assets/img/Plantilla-desempeno.png",
+      "gradoEstudios" : "",
+      "ingles" : "",
+      "nombre" : "gerardo",
+      "primerApellido" : "",
+      "segundoApellido" : "",
+      "sexo" : "hombre",
+      "uid" : "iS9EEWjMKNVz8oY9ZmhstvlYoNx1",
+      "ultimaEmpresa" : "",
+      "ultimoPuesto" : ""
+    },
+    "rRU6VxOiQcQPMShQ1G7tNy9kRUo1" : {
+      "estado" : "inactivo"
+    }
+  },
+  "usuariosAdmin" : {
+    "rRU6VxOiQcQPMShQ1G7tNy9kRUo1" : {
+      "estado" : "activo"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<div id="formulariopuesto" data-size="max" class="col-12" data-eliminar="eliminar">
+    <div class="card sombra">
+        <div class="card-header card-header-primary">
+            <div class="row float-right">
+               <button data-clas="puesto" data-ocultar="si" onClick="ocultar(this)" class="btn btn-primary"><i class="material-icons">minimize</i></button>
+                <button id="btnSize" onClick="accionMaxMin(this)" class="btn btn-primary"><i class="material-icons">crop_portrait</i></button>
+                <button onClick="EliminarNodo(this)" type="button" class="btn btn-primary"><i class="material-icons">close</i></button>
+            </div>
+
+            <h4 class="card-title">Puesto de Trabajo</h4>
+            <p class="card-category">crea un nuevo registro de un puesto de trabajo</p>
+        </div>
+        <div class="puesto card-body">
+            <div class="form-group col-12">
+                <label>Nombre del puesto</label>
+                <input type="text" class="borrar form-control" id="textNombrep">
+            </div>
+            <div class="form-group col-12">
+                <label>Descripción del puesto</label>
+                <input type="text" class="borrar form-control" id="textDescripcionp">
+            </div>
+            <div class="form-group col-12">
+                <label>Vacantes disponibles</label>
+                <input type="text" class="borrar form-control" id="textVacantesp" onkeypress="return validaInt(event)">
+            </div>
+
+        </div>
+        <div class="puesto card-footer">
+            <button onClick="Cancelar()" type="button" class="btn btn-warning ">Cancelar</button>
+            <button id="btnGuardarPuesto" type="button" class="btn btn-primary">Guardar</button>
+        </div>
+    </div>
+</div>

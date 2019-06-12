@@ -1,0 +1,37 @@
+<div id="formularioempresa" data-size="max" class="col-12" data-eliminar="eliminar">
+    <div class="card sombra">
+        <div class="card-header card-header-primary">
+            <div class="row float-right">
+               
+                <button data-clas="empresa" data-ocultar="si" onClick="ocultar(this)" class="btn btn-primary"><i class="material-icons">minimize</i></button>
+                <button id="btnSize" onClick="accionMaxMin(this)" class="btn btn-primary"><i class="material-icons">crop_portrait</i></button>
+                <button onClick="EliminarNodo(this)" type="button" class="btn btn-primary"><i class="material-icons">close</i></button>
+            </div>
+
+            <h4 class="card-title">Empresa</h4>
+            <p class="card-category">crea un nuevo registro de una empresa</p>
+        </div>
+        <div class="empresa card-body">
+            <div class="form-group col-12">
+                <label>Nombre de la empresa</label>
+                <input type="text" class="borrar form-control" id="textNombre">
+            </div>
+            <div class="form-group col-12">
+                <label>Descripción de la empresa</label>
+                <input type="text" class="borrar form-control" id="textDescripcion">
+            </div>
+            <div class="form-group col-12">
+                <label>Teléfono</label>
+                <input type="text" class="borrar form-control" id="textTelefono" onkeypress="return validaInt(event)">
+            </div>
+            <div class="form-group col-12">
+                <label>Dirección</label>
+                <input type="text" class="borrar form-control" id="textDireccion">
+            </div>
+        </div>
+        <div class="empresa card-footer">
+            <button onClick="Cancelar()" type="button" class="btn btn-warning ">Cancelar</button>
+            <button id="btnGuardarEmpresa" type="button" class="btn btn-primary">Guardar</button>
+        </div>
+    </div>
+</div>

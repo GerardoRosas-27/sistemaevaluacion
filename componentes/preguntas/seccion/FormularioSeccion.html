@@ -1,0 +1,54 @@
+<div id="formularioSeccion" data-size="max" class="col-12" data-eliminar="eliminar">
+    <div class="card sombra">
+        <div class="card-header card-header-primary">
+            <div class="row float-right">
+                <button data-clas="OcultarFormularioSeccion" data-ocultar="si" onClick="ocultar(this)" class="btn btn-primary"><i class="material-icons">minimize</i></button>
+                <button id="btnSize" onClick="accionMaxMin(this)" class="btn btn-primary"><i class="material-icons">crop_portrait</i></button>
+                <button onClick="EliminarNodo(this)" type="button" class="btn btn-primary"><i class="material-icons">close</i></button>
+            </div>
+
+            <h4 class="card-title">Sección</h4>
+            <p class="card-category">crea una nueva sección</p>
+        </div>
+        <div class="OcultarFormularioSeccion card-body">
+            <div class="form-row">
+
+                <div class="form-group col-12">
+                    <input disabled="disabled" type="text" class="form-control" value="1" id="idSeccionId">
+                </div>
+
+                <div class="form-group col-12">
+                    <label for="inputCity">Nombre de la sección:</label>
+                    <input type="text" class="borrar form-control" id="textSeccionNombre">
+                </div>
+                <div class="form-group col-12">
+                    <label for="inputCity">Titulo de la seccón:</label>
+                    <input type="text" class="borrar form-control" id="textSeccionTitulo">
+                </div>
+                <div class="form-group col-12">
+                    <label for="inputCity">Titulo de las instrucciones:</label>
+                    <input type="text" class="borrar form-control" id="textSeccionInstruccion">
+                </div>
+                <div class="form-group col-12">
+                    <label for="inputCity">Instruciones:</label>
+                </div>
+                <div id="agrgarInstruccion" class="col-12">
+
+                </div>
+                <div class="form-group col-12">
+                    <button id="CrearInstruccion" data-id="0" type="button" class="btn btn-raised btn-info" data-toggle="tooltip" data-placement="right" title="Agreagar Instrición"><i class="material-icons">add</i></button>
+                </div>
+                <div class="form-group col-12">
+                    <label class="textNegras">Tiempo de la Secci&oacute;n</label>
+                    <input type="text" class="borrar form-control" id="textSeccionTiempo" placeholder="En segundos" onkeypress="return validaInt(event)">
+                </div>
+                
+
+            </div>
+        </div>
+        <div class="OcultarFormularioSeccion card-footer">
+            <button onClick="Cancelar()" type="button" class="btn btn-warning ">Cancelar</button>
+            <button id="btnGuardarSeccion" type="button" class="btn btn-primary">Guardar</button>
+        </div>
+    </div>
+</div>

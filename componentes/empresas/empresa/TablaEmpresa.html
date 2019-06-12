@@ -1,0 +1,33 @@
+<div id="tablaempresa" data-size="max" class="col-12" data-eliminar="eliminar">
+    <div class="card sombra">
+        <div class="card-header card-header-primary">
+            <div class="row float-right">
+                <button data-clas="tablaempresa" data-ocultar="si" onClick="ocultar(this)" class="btn btn-primary"><i class="material-icons">minimize</i></button>
+                <button id="btnSize" onClick="accionMaxMin(this)" class="btn btn-primary"><i class="material-icons">crop_portrait</i></button>
+                <button onClick="EliminarNodo(this)" type="button" class="btn btn-primary"><i class="material-icons">close</i></button>
+            </div>
+
+            <h4 class="card-title">Datos de empresa</h4>
+            <p class="card-category">En esta ventana podras busca edita y elimina tus datos</p>
+        </div>
+        <div class="tablaempresa card-body table-responsive">
+            <table class="table table-hover">
+                <div>
+                    <input data-mostrar="datosEmpresa" class="form-control" id="buscarEmpresa" type="text" onkeyup="buscarDatos(this)" placeholder="Buscar...">
+               </div>
+                <thead class="text-warning">
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Dirección</th>
+                    <th>Teléfono</th>
+                    <th>Opciones</th>
+                </thead>
+                <tbody id="datosEmpresa">
+                    
+                    
+                </tbody>
+            
+            </table>
+        </div>
+    </div>
+</div>

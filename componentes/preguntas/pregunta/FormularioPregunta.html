@@ -1,0 +1,51 @@
+<div id="formulariopregunta" data-size="max" class="trancicion col-12" data-eliminar="eliminar">
+    <div class="card sombra">
+        <div class="card-header card-header-primary">
+            <div class="row float-right">
+                
+                <button data-clas="OcultarFormularioPregunta" data-ocultar="si" onClick="ocultar(this)" class="btn btn-primary"><i class="material-icons">minimize</i></button>
+                <button id="btnSize" onClick="accionMaxMin(this)" class="btn btn-primary"><i class="material-icons">crop_portrait</i></button>
+                <button onClick="EliminarNodo(this)" type="button" class="btn btn-primary"><i class="material-icons">close</i></button>
+            </div>
+
+            <h4 class="card-title">Pregunta</h4>
+            <p class="card-category">crea una pregunta</p>
+
+        </div>
+        <div class="OcultarFormularioPregunta card-body">
+            <div class="form-row">
+                
+
+                <div class="form-group col-12 col-md-6">
+                    <label class="tetxNegro">Número de la Pregunta:</label>
+                    <input type="text" class="borrar form-control" id="textNumeroPregunta" placeholder="Solo escribe el número de la pregunta" onkeypress="return validaInt(event)">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <label for="inputCity">Tiempo de la Pregunta</label>
+                    <input type="text" class="borrar form-control" id="textTiempoPregunta" placeholder="ingresa el tiempo en segundos..." onkeypress="return validaInt(event)">
+                </div>
+                <div class="form-group col-12">
+                    <label for="inputCity">Pregunta</label>
+                    <input type="text" class="borrar form-control" id="textPregunta" placeholder="Escribe el contenido de la pregunta...">
+                </div>
+
+
+                <div class="form-group col-8">
+                    <label for="inputCity">Cantidad de Respuestas</label>
+                    <input type="text" class="borrar form-control" id="textCantidadRespuestas" onkeypress="return validaInt(event)">
+                </div>
+                <div class="form-group col-4">
+                    <button id="GenerarTextRespuestas" type="button" class="btn btn-primary">Generar</button>
+                </div>
+
+                <div id="espacioRespuestas" class="form-group col-12">
+
+                </div>
+            </div>
+        </div>
+        <div class="OcultarFormularioPregunta card-footer">
+            <button onClick="Cancelar()" type="button" class="btn btn-warning ">Cancelar</button>
+            <button id="btnGuardarPregunta" type="button" class="btn btn-primary">Guardar</button>
+        </div>
+    </div>
+</div>

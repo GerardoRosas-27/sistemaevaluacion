@@ -1,0 +1,211 @@
+ <div class="wrapper ">
+        <div class="sidebar" data-color="purple" data-background-color="black" data-image="assets/img/write-593333_1920.jpg">
+
+            <div  class="sidebar-wrapper" >
+                <ul  class="nav">
+                  
+                   
+                    <li id="escritorio" onClick="controlButtonAdmin(this)" class="estado nav-item">
+                        <a class="nav-link" href="#escritorio">
+                            <i class="material-icons">dashboard</i>
+                            <p>Escritorio</p>
+                        </a>
+                    </li>
+                     <li id="empresa" onClick="controlButtonAdmin(this)" class="estado nav-item ">
+                        <a class="nav-link" href="#empresa">
+                             <i class="material-icons">layers</i>
+                            <p>Empresas y Puestos</p>
+                        </a>
+                    </li>
+                    <li id="preguntas" onClick="controlButtonAdmin(this)" class="estado nav-item ">
+                        <a class="nav-link" href="#Preguntas">
+                            <i class="material-icons">library_books</i>
+                            <p>Secciones y Preguntas</p>
+                        </a>
+                    </li>
+                    <li id="evaluaciones" onClick="controlButtonAdmin(this)" class="estado nav-item ">
+                        <a class="nav-link" href="#Preguntas">
+                            <i class="material-icons">library_books</i>
+                            <p>Evaluaciones</p>
+                        </a>
+                    </li>
+                    <li id="clientes" onClick="controlButtonAdmin(this)" class="estado nav-item ">
+                        <a class="nav-link" href="#clientes">
+                            <i class="material-icons">person</i>
+                            <p>Clientes</p>
+                        </a>
+                    </li>
+                    
+
+                    <li id="resultados" onClick="controlButtonAdmin(this)" class="estado nav-item ">
+                        <a class="nav-link" href="#resultados">
+                            <i class="material-icons">library_books</i>
+                            <p>Resultados</p>
+                        </a>
+                    </li>
+
+                    <li id="graficas" onClick="controlButtonAdmin(this)" class="estado nav-item ">
+                        <a class="nav-link" href="#graficas">
+                            <i class="material-icons">location_ons</i>
+                            <p>Graficas</p>
+                        </a>
+                    </li>
+                    
+                    
+                    <!--_Rem1_-->
+                    <!--_Rem2_-->
+                    <!--_Rem3_-->
+
+                    <!-- <li class="nav-item active-pro ">
+                <a class="nav-link" href="./upgrade.html">
+                    <i class="material-icons">unarchive</i>
+                    <p>Upgrade to PRO</p>
+                </a>
+            </li> -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-panel">
+            <!-- Navbar -->
+            <nav id="fixed" class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="logo">
+                        <img src="assets/img/new_logo.png" alt="">
+                    </div>
+                    <div class="navbar-wrapper">
+
+                        <a class="navbar-brand" href="#pablo">Sistema de Administraci&oacute;n.</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="sr-only">Navegación</span>
+                        <span class="navbar-toggler-icon icon-bar"></span>
+                        <span class="navbar-toggler-icon icon-bar"></span>
+                        <span class="navbar-toggler-icon icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end">
+
+                        <ul class="navbar-nav">
+                            <li class="icon_barra nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-twitter"></i>
+
+                                    <p class="d-lg-none d-md-block">
+                                        Gerardo y Isabel 
+                                    </p>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Mike John responded to your email</a>
+                                    <a class="dropdown-item" href="#">You have 5 new tasks</a>
+                                    <a class="dropdown-item" href="#">You're now friend with Andrew</a>
+                                    <a class="dropdown-item" href="#">Another Notification</a>
+                                    <a class="dropdown-item" href="#">Another One</a>
+                                </div>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#pablo">
+                                    <i class="material-icons">dashboard</i>
+                                    <p class="d-lg-none d-md-block">
+                                        Escritorio
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="material-icons">notifications</i>
+                                    <span class="notification">5</span>
+                                    <p class="d-lg-none d-md-block">
+                                        Notificaciones
+                                    </p>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                    <a onclick="activarNotificaciones(this)" class="dropdown-item" href="#">Activar</a>
+                                    <a class="dropdown-item" href="#">You have 5 new tasks</a>
+                                    <a class="dropdown-item" href="#">You're now friend with Andrew</a>
+                                    <a class="dropdown-item" href="#">Another Notification</a>
+                                    <a class="dropdown-item" href="#">Another One</a>
+                                </div>
+                            </li>
+                            
+                            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="material-icons">person</i>
+                                    
+                                    <p class="d-lg-none d-md-block">
+                                        Usuario
+                                    </p>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                    <a onclick="cerrarSesionAdmin()" class="dropdown-item" href="#">Cerrar Sesión</a>
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                        <form class="navbar-form">
+                            <div class="input-group no-border">
+                                <input id="textBuscar" type="text" value="" class="form-control" placeholder="Buscar">
+                                <button id="BuscarEscritorio" class="btn btn-white btn-round btn-just-icon">
+                                    <i class="material-icons">search</i>
+                                    <div class="ripple-container"></div>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navbar -->
+            <div class="content">
+                <div id="contenedorPrincipal" class="container-fluid">
+
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <nav class="float-left">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    contenido 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    contenido 2
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    contenido 3
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    contenido 4
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="copyright float-right">
+                        &copy;
+                       , Todos Los Derechos Reservados 
+                        <a href="#" target="_blank">Pagina Web</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+     <script src="assets/js/plugins/perfect-scrollbar.jquery.min.js?n=1"></script>
+    <!--  Google Maps Plugin    
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    -->
+    <!-- Chartist JS -->
+     <!--  Notifications Plugin    -->
+     
+    <script src="assets/js/material-dashboard.min.js?v=2.1.0" type="text/javascript"></script>
+    <script src="assets/js/plugins/chartist.min.js?n=1"></script>
+    <script src="assets/admin/admin.js?n=1"></script>
+    <script src="componentes/modulos.js?n=1"></script>
+    <script src="controladorAdmin.js?n=1"></script>

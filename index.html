@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <title>
+        Sistema Evaluaci&oacute;n
+    </title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+ 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+       
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+     
+
+    <link href="https://file.myfontastic.com/txr7nMuSRVcmuiUdFK9KF6/icons.css" rel="stylesheet">
+ 
+     
+    <link href="assets/css/material-kit.css?v=2.0.4" rel="stylesheet" />
+      <!-- iconos locales
+      <link rel="stylesheet" type="text/css" href="assets/fonts/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/flag-icon-css/css/flag-icon.min.css">
+    -->
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="assets/css/estilos.css" rel="stylesheet" />
+    <link href="componentes/barratiempo/Tiempo.css" rel="stylesheet" />
+</head>
+
+<body class="profile-page sidebar-collapse">
+    <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                            <i class="material-icons">apps</i> Opciones
+                            <i class="icon-clipboard"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="#" class="dropdown-item">
+                                <i class="material-icons">layers</i>Empresa
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="material-icons">content_paste</i>Descripción
+                            </a>
+                        </div>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"><span data-id="0" id="estadoUsuario">
+                                <i class="material-icons">voice_over_off</i>
+                            </span>Sesión
+                        </a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a id="iniciarSesion" href="#" class="dropdown-item">
+                                <i class="material-icons">record_voice_over</i><span id="usuarioNombre">Iniciar Sesión</span>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="material-icons">mail</i><span id="usuarioCorreo">Correo</span>
+                            </a>
+                            <a href="#" onclick="cerrarSesion()" class="dropdown-item">
+                                <i class="material-icons">power_settings_new</i><span id="cerrarSesion">Cerrar Sesión</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#" target="_blank" data-original-title="Twitter">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#" target="_blank" data-original-title="Facebook">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="#" target="_blank" data-original-title="Instagram">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="page-header header-filter" data-parallax="true" style="background-image: url('assets/img/write-593333_1920.jpg');"></div>
+
+    <div class="main main-raised">
+        <div class="profile-content">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="profile">
+                            <div id="avatar" class="avatar"><img src="./assets/img/Plantilla-desempeno.png" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+                                <h4 id="NombreUsuario" style="text-align: center;position:relative;top:-80px;"></h4>
+                            </div>
+
+                        </div>
+                        
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div id="BarraTiempo">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="contInstruciones" class="row">
+
+                </div>
+                <div id="areaBotones" class="row justify-content-center">
+                    <button onClick="btnAccionIndex(this)" data-accion="registro" type="button" class="btn btn-info btn-lg my-4"><i class="material-icons">touch_app</i>Siguiente<div class="ripple-container"></div></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer footer-default">
+        <div class="container">
+            <nav class="float-left">
+                <ul>
+                    <li>
+                        Texto Prueba 1
+                    </li>
+                    <li>
+                        Texto Prueba 2
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="copyright float-right">
+
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+                <a href="#" target="_blank">Desarrollo web</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="ModalIniciarSeccion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+
+                    <div class="card card-login">
+
+                        <div class="card-header card-header-primary text-center">
+                            <h4 class="card-title">Inicia Sesi&oacute;n</h4>
+                            <div class="social-line">
+                                <a href="#pablo" class="btn btn-just-icon btn-link">
+                                    <i class="icon-face"></i>
+                                </a>
+                                <a href="#pablo" class="btn btn-just-icon btn-link">
+                                    <i class="icon-tui"></i>
+                                </a>
+                                <a id="iniciarSesionGoogle" href="#pablo" class="btn btn-just-icon btn-link">
+                                    <i class="icon-google"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="description text-center">Inicia Sesi&oacute;n Con tu Correo</p>
+                        <div data-prueba="abuelo">
+                            <div class="card-body" id="contenedorSesion">
+
+                                <div class="form-row">
+                                    <div class="form-group col-12">
+
+                                        <span class="input-group-text">
+                                            <i class="material-icons">mail</i>
+                                            <input type="text" class="form-control" id="textCorreoInicio" placeholder="Correo...">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-12">
+                                        <span class="input-group-text">
+                                            <i class="material-icons">lock_outline</i>
+                                            <input id="textContraInicio" type="password" class="form-control" placeholder="Contraseña...">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-prueba="padre" class="footer text-center">
+                                <a data-id="iniciar" id="btnIniciarCuenta" href="#" class="btn btn-success btn-wd btn-lg">INICIAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--   Core JS Files   -->
+    <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+    <script src="assets/js/plugins/moment.min.js"></script>
+    <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+    <script src="assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+    <!--	Plugin for Sharrre btn -->
+    <script src="assets/js/plugins/jquery.sharrre.js" type="text/javascript"></script>
+    <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+    <script src="assets/js/material-kit.js?v=2.0.4" type="text/javascript"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+    <script type="text/javascript" src="componentes/configFirebase/configFirebase.js"></script>
+    <script src="assets/js/plugins/bootstrap-notify.js"></script>
+    <script type="text/javascript" src="componentes/modulos.js"></script>
+    <script type="text/javascript" src="controladorIndex.js"></script>
+</body>
+
+</html>

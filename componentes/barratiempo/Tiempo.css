@@ -1,0 +1,53 @@
+
+#BarraTiempo{
+    position: relative;
+    top: -90px;
+}
+
+div#vacio
+{
+	background-color: #e4e4e4;
+	border: 1px solid #8023a5;
+	width: 280px;
+	padding: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+ 
+div#div_completado
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	background-color: #8023a5;
+	width: 0px;
+	padding-top: 5px;
+	padding: 0px;
+}
+ 
+div#div_barra
+{
+	position: relative;
+	top: 0px;
+	left: 35%;
+	color: #ededed;
+	padding: 0px;
+	padding-top: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+ 
+div#div_boton
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 25px;
+	text-align: center;
+	padding: 0px;
+	padding-top: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}

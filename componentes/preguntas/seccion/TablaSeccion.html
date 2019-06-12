@@ -1,0 +1,33 @@
+<div id="tablaSeccion" data-size="max" class="col-12" data-eliminar="eliminar">
+    <div class="card sombra">
+        <div class="card-header card-header-primary">
+            <div class="row float-right">
+                <button data-clas="OcultarTablaSeccion" data-ocultar="si" onClick="ocultar(this)" class="btn btn-primary"><i class="material-icons">minimize</i></button>
+                <button id="btnSize" onClick="accionMaxMin(this)" class="btn btn-primary"><i class="material-icons">crop_portrait</i></button>
+                <button onClick="EliminarNodo(this)" type="button" class="btn btn-primary"><i class="material-icons">close</i></button>
+            </div>
+
+            <h4 class="card-title">Datos de seccion</h4>
+            <p class="card-category">En esta ventana podras busca edita y elimina tus datos</p>
+        </div>
+        <div class="OcultarTablaSeccion card-body table-responsive">
+            <table class="table table-hover">
+                <div>
+                    <input data-mostrar="datosSeccion" class="form-control" id="buscarSeccion" type="text" onkeyup="buscarDatos(this)" placeholder="Buscar...">
+               </div>
+                <thead class="text-warning">
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Título</th>
+                    <th>Tiempo</th>
+                    <th>Opciones</th>
+                </thead>
+                <tbody id="datosSeccion">
+                    
+                    
+                </tbody>
+            
+            </table>
+        </div>
+    </div>
+</div>
